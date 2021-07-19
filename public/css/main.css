@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0% auto;
+    padding: 0%;
+}
+
+:root {
+    --first-title: #7f8c8d;     
+    --second-title: #e67e22;
+    --main-font: Arial, Helvetica, sans-serif;
+    --white: #f5f6fa;
+}
+/* start Navbar*/
+/* .navbar {
+    background-image: url(../images/jonas-jacobsson-2xaF4TbjXT0-unsplash.jpg);
+} */
+.shadow .navbar .collapse .navbar-nav .nav-item a:hover {
+    background-color: var(--first-title);
+    color: var(--second-title);
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20%;
+}
+
+.navbar img {
+    width: 10%;
+    height: 2%;
+}
+.navbar .logo a {
+    text-transform: capitalize;
+    font-family:var(--main-font);
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--second-title);
+}
+
+.navbar .logo span {
+    color: var(--first-title);
+}
+
+.navbar .logo p{
+    font-family: var(--main-font);
+    font-size: 20px;
+    color: var(--first-title);
+    font-weight: bold;
+}
+
+.navbar .logo p span {
+    color: var(--second-title);
+}
+
+.navbar .collapse a{
+    font-size: 18px;
+    font-weight: bold;
+} 
+/* end Navbar*/
+/* start about-us*/
+
+/* .about-us .info {
+    border: 0.5px solid var(--second-title);
+    box-shadow: 2px 4px 2px 4px ;
+} */
+
+.about-us .info-first h2 {
+    font-family: var(--main-font);
+    color: var(--first-title);
+    text-transform: uppercase;
+}
+
+.about-us .info-first p {
+    font-family: var(--main-font);
+}
+
+.about-us .info-second h2 {
+    font-family: var(--main-font);
+    color: var(--second-title);
+    text-transform: uppercase;
+}
+
+.about-us .info-second p {
+    font-family: var(--main-font);
+}
+/* end about-us*/
+
+/* start topics */
+
+.topics .introd h1 ,
+.topics .introd p {
+    color: var(--first-title);
+}
+
+.topics .introd p {
+    font-size: 20px;
+}
+
+.topics .category img {
+    width: 60%;
+}
+
+.topics .category p {
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: baseline;
+}
+
+.topics .category .desc {
+    background-color: var(--second-title);
+    color: #ecf0f1;
+    width: 60%;
+    
+    opacity: 0;
+}
+
+.topics .category:hover .desc {
+    opacity: 0.9;
+}
+
+
+
+
+/* end topics */
